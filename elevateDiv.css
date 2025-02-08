@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imgSide {
+    background: url("./pics/coding4.jpg") center/cover no-repeat ;
+    min-height: 25rem;
+    border-top-left-radius: 40%;
+}
+
+.text1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textSide {
+    /* background: linear-gradient(to bottom right, rgba(13, 16, 54, 0.3), rgba(5, 12, 46, 0.4), rgba(11, 27, 70, 0.2)); */
+}
+
+.romntxt {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

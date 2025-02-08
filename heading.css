@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head1 {
+min-height: 31rem;
+    /* position: relative; */
+    background: linear-gradient(to left, rgba(0,0,0,0.7), rgba(0,0,0,0.5)),  url("./pics/writng_code.jpg") center/cover no-repeat fixed;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}

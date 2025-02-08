@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.btn1 {
+    background: rgb(25, 42, 190);
+}
+
+.lspc1 {
+    letter-spacing: 2rem;
+}
+
+.link1 {
+    text-decoration: none;
+}
+
+.icons1 {
+    min-height: 4rem;
+}

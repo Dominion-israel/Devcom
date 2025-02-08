@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fstSide { 
+    background: linear-gradient(rgba(11, 28, 180, 0.7),rgba(39, 56, 209, 0.4),rgba(11, 28, 180, 0.7));
+}
