@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primaryColor: #192abe;
+    --secondaryColor: #4a90e233;
+    --accentColor: #ff9800;
+    --darkText: #1a1a1a;
+    --lightText: #f5f5f5;
+    --backgrounColor: #EAEFF5;
+    --contrastColor: #be192a;
+    --alternativeAccent: #00bfa6;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.animation1 {
+
+}
+
+.headr1 {
+    
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(1, 0, 12, 0.7),rgba(9, 9, 14, 0.6)), url('./pics/writng_code.jpg')center/cover no-repeat fixed ;
+    /*background: rgba(31, 29, 68,0.9);*/
+}
+
+.headr1::before {
+    content:'';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 98%;
+    animation: bg-1 9s infinite  forwards;
+    border-radius: 0 0 50% 50%/0 0 100% 100%;
+    transform: scaleX(1.5);
+    opacity: .6;
+}
+
+.headr1::after {
+    
+}
+
+.head1 {
+    color: white;
+    font-weight: 800;
+    font-size: 5rem;
+}
+
+@keyframes bg-1 {
+    0% {
+        background: linear-gradient(to top left, rgba(13, 46, 95, 0.4), rgba(38, 75, 143, 0.7))
+    }
+    20% {
+        background: linear-gradient(to top left, rgba(13, 46, 95, 0.5), rgba(38, 75, 143, 0.7))
+    }
+    40% {
+        background: linear-gradient(to top left, rgba(13, 46, 95, 0.5), rgba(38, 75, 143, 0.8))
+    }
+    60% {
+        background: linear-gradient(to top right, rgba(13, 46, 95, 0.6), rgba(38, 75, 143, 0.8))
+    }
+    80% {
+        background: linear-gradient(to top right, rgba(13, 46, 95, 0.3), rgba(38, 75, 143, 0.8))
+    }
+    100% {
+        background: linear-gradient(to bottom left, rgba(13, 46, 95, 0.5), rgba(38, 75, 143, 0.9));
+    }
+}
+
+.parag1 {
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2rem;
+}
+
+#bg-logo1 {
+    position: absolute;
+    top: 3rem;
+    right: 16rem;
+    opacity: 0.2;
+    transform: rotateY(25 deg);
+}
+
+#bg-logo2 {
+    position: absolute;
+    top: 14rem;
+    left: 10rem;
+    opacity: 0.2;
+    transform: rotateY(25 deg);
+}
+
+#bg-logo3 {
+    position: absolute;
+    bottom: 5rem;
+    right: 30rem;
+    opacity: 0.2;
+    transform: rotateY(25 deg);
+}
+
+#bg-logo4 {
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+    opacity: 0.2;
+    transform: rotateY(25 deg);
+}
+
+#bg-logo5 {
+    position: absolute;
+    bottom: 7rem;
+    left: 14rem;
+    opacity: 0.2;
+    transform: rotateY(25 deg);
+}
+
+#bg-logo6 {
+    position: absolute;
+    top: 15rem;
+    right: 3rem;
+    opacity: 0.2;
+    transform: rotateY(25 deg);
+}
+
+#bg-logo7 {
+    position: absolute;
+    top: 3rem;
+    left: 23rem;
+    opacity: 0.3;
+    transform: rotateY(25 deg);
+    color: black;
+}
+
+@media screen and (max-width:768px) {
+    #bg-logo3 {
+        bottom: 2rem;
+        right: 15rem;
+        opacity: 0.1;
+        
+    }
+
+    #bg-logo2 {
+        top: 20rem;
+        right: 2rem;
+        opacity: 0.1;
+    }
+
+    #bg-logo1 {
+        top: 1rem;
+        opacity: 0.1;
+    }
+
+    #bg-logo4 {
+        opacity: 0.1;
+    }
+
+    #bg-logo5 {
+        opacity: 0.1;
+    }
+
+    #bg-logo6 {
+        opacity: 0.1;
+    }
+
+    #bg-logo7 {
+        opacity: 0.1;
+    }
+}

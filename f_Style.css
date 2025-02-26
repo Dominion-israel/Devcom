@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primaryColor: rgb(25, 42, 190);
+    --secondaryColor: #4a90e233;
+    --accentColor: #ff9800e6;
+    --darkText: #1a1a1a;
+    --lightText: #f5f5f5;
+    --backgrounColor: #EAEFF5;
+    --contrastColor: #be192a;
+    --alternativeAccent: #00bfa6;
+}
+
+body {
+    background: var(--backgrounColor);
+}
+
+.textPrimary {
+    color: var(--primaryColor);
+}
+
+.secondaryBackgrnd {
+    background: var(--secondaryColor);
+}
+
+.lightText {
+    color: var(--lightText);
+}
+
+.darkText {
+    color: var(--darkText);
+}

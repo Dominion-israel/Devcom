@@ -5,5 +5,9 @@
 }
 
 .fstSide { 
-    background: linear-gradient(rgba(11, 28, 180, 0.7),rgba(39, 56, 209, 0.4),rgba(11, 28, 180, 0.7));
+    background: linear-gradient(rgba(11, 28, 180, 0.479),rgba(39, 56, 209, 0.4),rgba(11, 28, 180, 0.452)), url('./pics/writng_code.jpg')center/cover  no-repeat;
+}
+
+.connectBckgrnd {
+    background: var(--alternativeAccent);
 }

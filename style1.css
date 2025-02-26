@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primaryColor: rgb(25, 42, 190);
+    --secondaryColor: #4a90e233;
+    --accentColor: #ff9800e6;
+    --darkText: #1a1a1a;
+    --lightText: #f5f5f5;
+    --backgrounColor: #EAEFF5;
+    --contrastColor: #be192a;
+    --alternativeAccent: #00bfa6;
+}
+
+body {
+    font-family: sans-serif;
+    background: var(--backgrounColor);
+    color: var(--darkText);
+}
+
+.darktext {
+    color: var(--darkText);
+}
+
+.ligttext {
+    color: var(--lightText);
+}
+
+.bannerBckgnd {
+    background: var(--secondaryColor);
+}
+
+.btn1 {
+    background: var(--accentColor);
+}
+
+.lspc1 {
+    letter-spacing: 2rem;
+}
+
+.link1 {
+    text-decoration: none;
+}
+
+.icons1 {
+    min-height: 4rem;
+}
+
+.textPrimary {
+    color: var(--primaryColor);
+}
+
+/*
+.drkGradnt1 {
+    background: linear-gradient( rgba(212, 212, 212, 0.2), rgba(212, 212, 212,0.3));
+} */
+.drkGradnt2 {
+    background: linear-gradient( rgba(212, 212, 212,0.5),rgba(212, 212, 212,0.6) );
+}
+
+.drkGradnt3 {
+    background: linear-gradient( rgba(212, 212, 212,0.4),rgba(212, 212, 212,0.5) );
+}
+
+.drkGradnt4 {
+    background: linear-gradient( rgba(204, 161, 68, 0.2),rgba(204, 164, 78, 0.3) );
+}
+
+.drkGradnt5 {
+    background: var(--secondaryColor);
+}
+
+#txtAr1 {
+    width: 99%;
+    
+}
+
+.centerAlign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background: var(--secondaryColor);
+}
+
+@media screen and (max-width:483px) {
+    .lspc1 {
+        letter-spacing: 0.6rem;
+    }
+}
