@@ -53,6 +53,16 @@ body {
     color: var(--primaryColor);
 }
 
+.secondaryText {
+    color: var(--secondaryColor);
+}
+
+.smallImage {
+    max-width: 7rem;
+    height: 5rem;
+    border-radius: 40%;
+}
+
 /*
 .drkGradnt1 {
     background: linear-gradient( rgba(212, 212, 212, 0.2), rgba(212, 212, 212,0.3));
@@ -86,6 +96,16 @@ body {
 
 .footer {
     background: var(--secondaryColor);
+}
+
+.icon-position1 {
+    margin-top: -20px;
+}
+
+.icon-position2 {
+    position: absolute;
+    right: 2px;
+    bottom: -28px;
 }
 
 @media screen and (max-width:483px) {

@@ -12,11 +12,11 @@ body {
 min-height: 90vh;
     /* position: relative; */
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url("./pics/work.jpg") center/cover no-repeat fixed;
-    animation: nice 20s 2  backwards;
+    animation: nice 20s 2  forwards;
     color: var(--lightText);
 }
 
-.head1::before {
+/*.head1::before {
     content: '';
     position: absolute;
     top: 5rem;
@@ -27,23 +27,27 @@ min-height: 90vh;
     min-height: 90vh;
     opacity: 0.6;
 }
+/* * */
 
 @keyframes nice {
     30% {
-        background: url('./pics/coding4.jpg')center/cover fixed no-repeat;
+        background: linear-gradient(to bottom left, rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('./pics/code.jpg')center/cover fixed no-repeat;
     }
     50% {
-        background:linear-gradient(to left, rgba(134, 136, 149, 0.4), rgba(168, 162, 162, 0.5)), url('./pics/writng_code.jpg')center/cover fixed no-repeat;
+        background:linear-gradient(to left, rgba(134, 136, 149, 0.4), rgba(168, 162, 162, 0.5)), url('./pics/workingTogda.jpg')center/cover fixed no-repeat;
         
     }
-    70%{
+    55%{
+        color: var(--lightText);
+    }
+    65%{
         color: var(--darkText);
     }
     75% {
-        background: url('./pics/coding2.jpg')center/cover fixed no-repeat;
+        background: linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url('./pics/main3.jpg')center/cover fixed no-repeat;
         color: var(--darkText);
     }
     100% {
-        background: url('./pics/coding3.jpg')center/cover fixed no-repeat;
+        background: linear-gradient(to top right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./pics/main2.jpg')center/cover fixed no-repeat;
     }
 }

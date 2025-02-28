@@ -29,7 +29,7 @@
     border-radius: 0 0 50% 50%/0 0 100% 100%;
     transform: scaleX(1.5);
     color: var(--lightText);
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('./pics/coding2.jpg') center/cover fixed no-repeat ;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('./pics/main2.jpg') center/cover fixed no-repeat ;
 }
 
 .headr2::before {
