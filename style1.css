@@ -37,6 +37,11 @@ body {
     background: var(--accentColor);
 }
 
+.btn1:hover {
+    background: var(--darkText);
+    color: var(--lightText);
+}
+
 .lspc1 {
     letter-spacing: 2rem;
 }
@@ -106,6 +111,11 @@ body {
     position: absolute;
     right: 2px;
     bottom: -28px;
+}
+
+.is-clicked {
+    background: var(--darkText);
+    color: var(--lightText);
 }
 
 @media screen and (max-width:483px) {
